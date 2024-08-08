@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7432e1cc6c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+         <img src="/images/logo1.jpg" alt="this is image" class="logo">  
+          <!--<video src="/images/logo.mp4" height="50px" width="80px" controls loop autoplay></video>--> 
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>I am Teacher</p>
+            <h1>I am <span>Tuk Bahadur</span> <br> Bishwokarma <br> Pyuthan Nepal</h1>
+        </div>
+    </div>
+   </div>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="/images/background.jpg" alt="This is me">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p> 
+                    I'm a dedicated computer teacher with a Bachelor's in Computer Application from Tribhuwan University. I teach grades 9, 10, and +2 students at Avens School and Shree Shanti School, and serve as house incharge at Caribbean Secondary School. I focus on engaging learning with tools like Canva and bridge courses in Word, Excel, and PowerPoint. Recently, I began my programming career to further enhance my skills. I love spending time with family and inspiring my students in computer science.
+                </p>
+                <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                   <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                   <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">  
+                    <ul>
+                        <li><span>PHP<br></span>Web Designing</li>
+                        <li><span>C Programming<br></span>System Design</li>
+                        <li><span>HTML/CSS<br></span>Basic Web Designing/Web Page</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Caribbean School<br></span>3 years 2078-current</li>
+                        <li><span>Avens School<br></span>2 years 2080 2078-current</li>
+                        <li><span>Shree Shanti<br></span> 2 years 2079 2078-current</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">  
+                    <ul>
+                        <li><span>High School<br></span>Moti MA Vi 2016</li>
+                        <li><span>+2<br></span>Omega College 2019</li>
+                        <li><span>Bachelor<br></span>Caribbean College 2023</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Modern web design goes beyond how things look (aesthetics) to include how things work (functionality). Here are some key concepts and elements involved in web design:</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Developer</h2>
+                <p>Modern web design goes beyond how things look (aesthetics) to include how things work (functionality). Here are some key concepts and elements involved in web design:</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>UI/UX Design</h2>
+                <p>Modern web design goes beyond how things look (aesthetics) to include how things work (functionality). Here are some key concepts and elements involved in web design:</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/images/work1.jpg" alt="">
+                <div class="layer">
+                    <h3>High School</h3>
+                    <p>As a secondary school teacher, you'll need to: prepare and deliver lessons to classes of different ages and abilities mark work, give appropriate feedback and maintain records of pupils' progress and development research new topic areas, maintaining up-to-date subject knowledge, and devise and write new curriculum materials.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work2.jpg" alt="">
+                <div class="layer">
+                    <h3>College</h3>
+                    <p>Teachers must keep up to date with developments in their subject area, new resources, methods and national objectives. The role involves liaising and networking with other professionals, parents and carers, both informally and formally.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/images/work3.png" alt="">
+                <div class="layer">
+                    <h3>School</h3>
+                    <p>Teachers may move into Key Stage or year leader, mentoring, pastoral and management roles. Management roles in particular attract considerable salary increases.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> tukbishwokarma@gmail.com</p>
+                <p><i class="fa-solid fa-address-book"></i> 981122334455</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tbs.gtr/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://np.linkedin.com/in/tuk-bahadur-bishwokarma-bb7756192"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" download="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="Email" placeholder="Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>Copyright@Tuk. Made <i class="fa-solid fa-heart"></i> by tukbishwokarma</p>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right="0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://docs.google.com/spreadsheets/d/1x_0llc96PtwkPD-qyVlUVwDPFLudQ08DmmKanNynGFs/edit?gid=0#gid=0'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
